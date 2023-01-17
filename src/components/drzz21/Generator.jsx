@@ -59,7 +59,7 @@ const Generator = () => {
 						<button
 							onClick={generatePassword}
 							className={
-								'active:bg-[#2b3138] text-2xl font-medium w-full py-2 mb-2 rounded bg-[#393E46] drzz21text drop-shadow-2xl'
+								'drzz21ButtonShadow active:bg-[#2b3138] text-2xl font-medium w-full py-2 mb-2 rounded-xl bg-[#393E46] drzz21text drop-shadow-2xl'
 							}
 						>
 							Generate Password
@@ -110,7 +110,7 @@ const Generator = () => {
 								showClass()
 							}}
 							className={
-								'text-2xl active:bg-[#191d24]  w-full text-center font-medium py-2 my-2 rounded bg-[#222831] drzz21text drop-shadow-2xl'
+								'drzz21ButtonShadow text-2xl active:bg-[#191d24]  w-full text-center font-medium py-2 my-2 rounded-xl bg-[#222831] drzz21text drop-shadow-2xl'
 							}
 						>
 							<svg
